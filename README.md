@@ -69,6 +69,11 @@ adicionando pelo POST `/ingredient` da seguinte forma:
 
 A classe `PromotionService.java` gerencia a regra de negócios das promoções, que no momento são 3:
 
+
+##### OBS: Utilizar o POST `/promotion` para testes dos cenarios abaixo!
+
+
+
 *Light:* Se o lanche tem alface e não tem bacon, ganha 10% de desconto.
 
 #### Exemplo de JSON teste :
@@ -117,6 +122,7 @@ A classe `PromotionService.java` gerencia a regra de negócios das promoções, 
   ]
 }
 ```
+
 
 ## Autor
 * **Thiago Santos da Silva**  - [ThiagoDevSantos Github](https://github.com/ThiagoDevSantos) - `thiagosantosilva.2021@gmail.com`
